@@ -1,0 +1,19 @@
+{
+    "port":":8002",
+    "mysql":{
+        "dsn":"localhost",
+        "user":"root",
+        "password":"root",
+        "database": "jembatantimbang"
+    },
+    "api_URL":"http://localhost:8000",
+    "imager_URL":"http://localhost:8001",
+    "unzip_src_dir":"../../../../../../../ms-parser",
+    "unzip_dest_dir":"../../../../../../../ms-parser",
+    "photo_categories":[
+        "photo_plat_number", 
+        "photo_stuk_number",
+        "photo_stnk_number",
+        "photo_surat_jalan" 
+    ]
+}
